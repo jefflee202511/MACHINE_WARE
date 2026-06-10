@@ -3,6 +3,6 @@
 
  - renode(emulator) + litex(cpu compiler) + fpgaZeroMCP(MCP interconnector) = ? 
 
- - verilog to soft-cpu, with AI assistant
+ - SOC generator using AI assistant
 
  - Free ASIC/FPGA soft core development environment ? 
