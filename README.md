@@ -1,7 +1,7 @@
 # MACHINE_WARE
 
 
- - renode + litex + fpgaZeroMCP = ? 
+ - renode(emulator) + litex(cpu compiler) + fpgaZeroMCP(MCP interconnector) = ? 
 
  - verilog to soft-cpu, with AI assistant
 
