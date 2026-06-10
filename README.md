@@ -1,7 +1,6 @@
 # MACHINE_WARE
 
 
-renode + litex + fpgaZeroMCP = ? 
-https://github.com/lcapossio/fpgaZeroMCP?tab=readme-ov-file#allowed-licenses
+ - renode + litex + fpgaZeroMCP = ? 
 
-verilog to soft-cpu, with AI assistant
+ - verilog to soft-cpu, with AI assistant
