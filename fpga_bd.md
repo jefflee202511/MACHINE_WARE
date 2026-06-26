@@ -10,3 +10,21 @@
 [icesugar fpga tool](https://github.com/wuxx/icesugar)
 
 
+
+비트스트림 업데이트 방법 
+
+1) litex_term을 먼저 실행 (reset 누르기 전!):
+cd ~/riscv-cfu-int8-dot4-demo/proj/pro_nms_cfu_demo
+source ~/riscv-cfu-int8-dot4-demo/environment
+python3 -m litex.tools.litex_term /dev/ttyACM0 --kernel build/software.bin
+
+2) 화면에 [LITEX-TERM] Configuring... 또는 대기 상태가 보이면 → 그때 보드 reset 버튼
+
+3) 자동으로 흐름:
+- BIOS 부팅 → serialboot 신호 → firmware 자동 업로드 → 부팅
+- 메뉴 뜨면 → 3 Enter (Project menu) → 0 Enter (Run demo)
+
+4) 출력:
+CPU-only dot product   : cycles = ...
+CFU custom instruction : cycles = ...
+SPEEDUP = ... x
